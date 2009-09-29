@@ -1,0 +1,33 @@
+Fuzzing ISO fs (as seen on MOKB :P)
+-----------------------------------
+	To fuzz using "helpers" might want to compile the fuzzer without -DPTRACE, it 
+	will be faster and will really work (Sometimes this part of the fuzzer does not
+	work as i spected).
+
+	Example:
+
+	root@kenny:/home/gr00vy/workspace/gwar/src# gcc PexLike.c file.c fuzzer.c logging.c \
+	main.c mappings.c parseopts.c parser.c process.c signals.c utils.c x86_disasembly.c \
+	-I ../include/ -I ../ -lm ../distorm64.a -o gwar -DFUZZ_ALL
+
+	root@kenny:/home/gr00vy/workspace/gwar/src# ./gwar -i ../inputs/input.iso -o ../tmp/fuzzing.iso \
+	-t 5 -m 2 -r 0-10  "/usr/bin/python /home/gr00vy/workspace/gwar/helpers/mount.py %FILENAME% /mnt/cdrom"
+
+	This will take 'input.iso' as the input iso file, and will check
+	the range from byte 0 to byte 10. The fuzzer will spawn at max 2 childs
+	and will wait 5 seconds at most.
+
+	The "helper modules" are just some script/program made to help with the cleanup
+	for example this module, mounts the image and then executes some command to trigger
+	actions on the newly mounted fs. Then it cleanups (umount's the .iso)
+
+Fuzzing Read Elf
+----------------
+
+	Here you could enable -DPTRACE to get a rich set of debugging data. So here it is the gcc line
+
+	root@kenny:/home/gr00vy/workspace/gwar/src# gcc PexLike.c file.c fuzzer.c logging.c \
+	main.c mappings.c parseopts.c parser.c process.c signals.c utils.c x86_disasembly.c \
+	-I ../include/ -I ../ -lm ../distorm64.a -Wall -o gwar -ggdb -DFUZZ_ALL -DPTRACE
+
+	

@@ -1,0 +1,20 @@
+#Tue Nov 07 11:15:48 GMT 2006
+cdt.managedbuild.config.gnu.exe.debug.1569806919/internalBuilder/enabled=false
+cdt.managedbuild.config.gnu.exe.debug.1569806919/internalBuilder/ignoreErr=true
+cdt.managedbuild.config.gnu.exe.debug.337094476/internalBuilder/enabled=false
+cdt.managedbuild.config.gnu.exe.debug.337094476/internalBuilder/ignoreErr=true
+cdt.managedbuild.config.gnu.exe.debug.774060355/internalBuilder/enabled=false
+cdt.managedbuild.config.gnu.exe.debug.774060355/internalBuilder/ignoreErr=true
+cdt.managedbuild.config.gnu.exe.release.1489423022/internalBuilder/enabled=false
+cdt.managedbuild.config.gnu.exe.release.1489423022/internalBuilder/ignoreErr=true
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.debug.337094476=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment>\n<variable name\="CPATH" value\="/usr/include/libffi" operation\="replace"/>\n<variable name\="C_INCLUDE_PATH" operation\="remove"/>\n</environment>\n
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.debug.774060355=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment>\n<variable name\="CPATH" value\="/usr/include/libffi" operation\="replace"/>\n<variable name\="C_INCLUDE_PATH" operation\="remove"/>\n</environment>\n
+environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.exe.release.1489423022=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment>\n<variable name\="CPATH" value\="/usr/include/libffi" operation\="replace"/>\n<variable name\="C_INCLUDE_PATH" operation\="remove"/>\n</environment>\n
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.exe.debug.337094476=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment>\n<variable name\="LIBRARY_PATH" operation\="remove"/>\n</environment>\n
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.exe.debug.774060355=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment>\n<variable name\="LIBRARY_PATH" operation\="remove"/>\n</environment>\n
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.exe.release.1489423022=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment>\n<variable name\="LIBRARY_PATH" operation\="remove"/>\n</environment>\n
+environment/project=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment/>\n
+environment/project/cdt.managedbuild.config.gnu.exe.debug.1569806919=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment/>\n
+environment/project/cdt.managedbuild.config.gnu.exe.debug.337094476=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment/>\n
+environment/project/cdt.managedbuild.config.gnu.exe.debug.774060355=<?xml version\="1.0" encoding\="UTF-8"?>\n<environment/>\n

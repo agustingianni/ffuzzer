@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="gwar.cdt.managedbuild.target.gnu.exe.74030160" name="Executable (Gnu)" projectType="cdt.managedbuild.target.gnu.exe">
+<configuration id="cdt.managedbuild.config.gnu.exe.debug.337094476" name="Debug" description="" parent="cdt.managedbuild.config.gnu.exe.debug" artifactName="../src/gwar_debug" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+<toolChain superClass="cdt.managedbuild.toolchain.gnu.exe.debug" id="cdt.managedbuild.toolchain.gnu.exe.debug.339228308" name="GCC Tool Chain">
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1143850167" name="GCC C++ Compiler"/>
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928" name="GCC C Compiler">
+<option superClass="gnu.c.compiler.option.preprocessor.def.symbols" id="gnu.c.compiler.option.preprocessor.def.symbols.2137841475" valueType="definedSymbols">
+<listOptionValue value="FUZZ_ALL" builtIn="false"/>
+<listOptionValue value="PTRACE" builtIn="false"/>
+</option>
+<option superClass="gnu.c.compiler.option.include.paths" id="gnu.c.compiler.option.include.paths.2075005407" valueType="includePath">
+<listOptionValue value="&quot;${workspace_loc:/gwar/include}&quot;" builtIn="false"/>
+<listOptionValue value="&quot;${workspace_loc:/gwar}&quot;" builtIn="false"/>
+</option>
+<option superClass="gnu.c.compiler.option.debugging.other" id="gnu.c.compiler.option.debugging.other.1309546095" value="-ggdb" valueType="string"/>
+</tool>
+<tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.395993079" name="GCC C Linker">
+<option superClass="gnu.c.link.option.userobjs" id="gnu.c.link.option.userobjs.196316072" valueType="userObjs">
+<listOptionValue value="&quot;${workspace_loc:/gwar/distorm64.a}&quot;" builtIn="false"/>
+</option>
+<option superClass="gnu.c.link.option.libs" id="gnu.c.link.option.libs.749201328" valueType="libs">
+<listOptionValue value="m" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.2094006675" name="GCC C++ Linker"/>
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457" name="GCC Assembler"/>
+<macros/>
+</toolChain>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.337094476./gwar/helpers/fork.c" name="fork.c" exclude="true" resourcePath="/gwar/helpers/fork.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/fork.c" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/fork.c" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.337094476./gwar/inputs/input.s" name="input.s" exclude="true" resourcePath="/gwar/inputs/input.s" toolsToInvoke="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457./gwar/inputs/input.s" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457./gwar/inputs/input.s" name="GCC Assembler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.337094476./gwar/helpers/cleaner.c" name="cleaner.c" exclude="true" resourcePath="/gwar/helpers/cleaner.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/cleaner.c" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/cleaner.c" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.337094476./gwar/helpers/sigsegv.c" name="sigsegv.c" exclude="true" resourcePath="/gwar/helpers/sigsegv.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/sigsegv.c" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/sigsegv.c" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.337094476./gwar/helpers/sleep.c" name="sleep.c" exclude="true" resourcePath="/gwar/helpers/sleep.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/sleep.c" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/sleep.c" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.337094476./gwar/helpers/system.c" name="system.c" exclude="true" resourcePath="/gwar/helpers/system.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/system.c" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928./gwar/helpers/system.c" name="GCC C Compiler"/>
+</resourceConfiguration>
+</configuration>
+<configuration id="cdt.managedbuild.config.gnu.exe.debug.1569806919" name="ptrace" description="Ptrace enabled binary" parent="cdt.managedbuild.config.gnu.exe.debug" artifactName="../src/gwar_ptrace" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+<toolChain superClass="cdt.managedbuild.toolchain.gnu.exe.debug" id="cdt.managedbuild.toolchain.gnu.exe.debug.2073068613" name="GCC Tool Chain">
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.23989960" name="GCC C++ Compiler"/>
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.27638102" name="GCC C Compiler">
+<option superClass="gnu.c.compiler.option.preprocessor.def.symbols" id="gnu.c.compiler.option.preprocessor.def.symbols.1394049021" name="Defined symbols (-D)" valueType="definedSymbols">
+<listOptionValue value="FUZZ_ALL" builtIn="false"/>
+<listOptionValue value="PTRACE" builtIn="false"/>
+</option>
+<option superClass="gnu.c.compiler.option.include.paths" id="gnu.c.compiler.option.include.paths.101358407" name="Include paths (-I)" valueType="includePath">
+<listOptionValue value="&quot;${workspace_loc:/gwar/include}&quot;" builtIn="false"/>
+<listOptionValue value="&quot;${workspace_loc:/gwar}&quot;" builtIn="false"/>
+</option>
+<option superClass="gnu.c.compiler.option.debugging.other" id="gnu.c.compiler.option.debugging.other.516879163" name="Other debugging flags" value="-ggdb" valueType="string"/>
+<option superClass="gnu.c.compiler.exe.debug.option.optimization.level" id="gnu.c.compiler.exe.debug.option.optimization.level.2098284408" value="gnu.c.optimization.level.most" valueType="enumerated"/>
+</tool>
+<tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.2084944713" name="GCC C Linker">
+<option superClass="gnu.c.link.option.userobjs" id="gnu.c.link.option.userobjs.11013390" name="Other objects" valueType="userObjs">
+<listOptionValue value="&quot;${workspace_loc:/gwar/distorm64.a}&quot;" builtIn="false"/>
+</option>
+<option superClass="gnu.c.link.option.libs" id="gnu.c.link.option.libs.1796480487" name="Libraries (-l)" valueType="libs">
+<listOptionValue value="m" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1720485014" name="GCC C++ Linker"/>
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.595682455" name="GCC Assembler"/>
+<macros/>
+</toolChain>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.1569806919./gwar/helpers/fork.c" name="fork.c" exclude="true" resourcePath="/gwar/helpers/fork.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1205354152" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.27638102" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1205354152" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.1569806919./gwar/inputs/input.s" name="input.s" exclude="true" resourcePath="/gwar/inputs/input.s" toolsToInvoke="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457.1563618413" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug.595682455" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457.1563618413" name="GCC Assembler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.1569806919./gwar/helpers/cleaner.c" name="cleaner.c" exclude="true" resourcePath="/gwar/helpers/cleaner.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.484114945" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.27638102" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.484114945" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.1569806919./gwar/helpers/sigsegv.c" name="sigsegv.c" exclude="true" resourcePath="/gwar/helpers/sigsegv.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1462979951" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.27638102" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1462979951" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.1569806919./gwar/helpers/sleep.c" name="sleep.c" exclude="true" resourcePath="/gwar/helpers/sleep.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1464604389" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.27638102" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1464604389" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.1569806919./gwar/helpers/system.c" name="system.c" exclude="true" resourcePath="/gwar/helpers/system.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1987597584" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.27638102" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1987597584" name="GCC C Compiler"/>
+</resourceConfiguration>
+</configuration>
+<configuration id="cdt.managedbuild.config.gnu.exe.debug.774060355" name="noptrace" description="Ptrace disabled binary" parent="cdt.managedbuild.config.gnu.exe.debug" artifactName="../src/gwar" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+<toolChain superClass="cdt.managedbuild.toolchain.gnu.exe.debug" id="cdt.managedbuild.toolchain.gnu.exe.debug.185162089" name="GCC Tool Chain">
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.633935271" name="GCC C++ Compiler"/>
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.986345716" name="GCC C Compiler">
+<option superClass="gnu.c.compiler.option.preprocessor.def.symbols" id="gnu.c.compiler.option.preprocessor.def.symbols.504026265" name="Defined symbols (-D)" valueType="definedSymbols">
+<listOptionValue value="FUZZ_ALL" builtIn="false"/>
+</option>
+<option superClass="gnu.c.compiler.option.include.paths" id="gnu.c.compiler.option.include.paths.2118079589" name="Include paths (-I)" valueType="includePath">
+<listOptionValue value="&quot;${workspace_loc:/gwar/include}&quot;" builtIn="false"/>
+<listOptionValue value="&quot;${workspace_loc:/gwar}&quot;" builtIn="false"/>
+</option>
+<option superClass="gnu.c.compiler.option.debugging.other" id="gnu.c.compiler.option.debugging.other.1447944010" name="Other debugging flags" value="-ggdb" valueType="string"/>
+<option superClass="gnu.c.compiler.exe.debug.option.optimization.level" id="gnu.c.compiler.exe.debug.option.optimization.level.1765897155" value="gnu.c.optimization.level.most" valueType="enumerated"/>
+</tool>
+<tool superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.339310167" name="GCC C Linker">
+<option superClass="gnu.c.link.option.userobjs" id="gnu.c.link.option.userobjs.240474759" name="Other objects" valueType="userObjs">
+<listOptionValue value="&quot;${workspace_loc:/gwar/distorm64.a}&quot;" builtIn="false"/>
+</option>
+<option superClass="gnu.c.link.option.libs" id="gnu.c.link.option.libs.33780180" name="Libraries (-l)" valueType="libs">
+<listOptionValue value="m" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1796629560" name="GCC C++ Linker"/>
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1932778043" name="GCC Assembler"/>
+<macros/>
+</toolChain>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.774060355./gwar/helpers/fork.c" name="fork.c" exclude="true" resourcePath="/gwar/helpers/fork.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1036338685" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.986345716" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1036338685" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.774060355./gwar/inputs/input.s" name="input.s" exclude="true" resourcePath="/gwar/inputs/input.s" toolsToInvoke="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457.1140582680" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug.1932778043" id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1208771457.1140582680" name="GCC Assembler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.774060355./gwar/helpers/cleaner.c" name="cleaner.c" exclude="true" resourcePath="/gwar/helpers/cleaner.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1635365133" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.986345716" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1635365133" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.774060355./gwar/helpers/sigsegv.c" name="sigsegv.c" exclude="true" resourcePath="/gwar/helpers/sigsegv.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.259402157" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.986345716" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.259402157" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.774060355./gwar/helpers/sleep.c" name="sleep.c" exclude="true" resourcePath="/gwar/helpers/sleep.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1762769244" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.986345716" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.1762769244" name="GCC C Compiler"/>
+</resourceConfiguration>
+<resourceConfiguration id="cdt.managedbuild.config.gnu.exe.debug.774060355./gwar/helpers/system.c" name="system.c" exclude="true" resourcePath="/gwar/helpers/system.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.788346811" rcbsApplicability="disable">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.986345716" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1707011928.788346811" name="GCC C Compiler"/>
+</resourceConfiguration>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>
