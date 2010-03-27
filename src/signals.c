@@ -21,7 +21,7 @@
 	#include <sys/ptrace.h>
 	#include <sys/reg.h>
 	#include <sys/types.h>
-	#include <linux/user.h>
+	#include <sys/user.h>
 	#include <sys/syscall.h>	/* For SYS_write etc */
 
 	#define PTRACE_EVENT_FORK       1

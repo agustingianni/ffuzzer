@@ -1,0 +1,15 @@
+To compile the file fuzzer you need to have installed on your system
+the library distorm64. You can download it from http://ragestorm.net/distorm/
+
+Once you installed the .so go to the src directory of ffuzer and issue the
+following command:
+
+	gcc PexLike.c file.c fuzzer.c logging.c \
+	main.c mappings.c parseopts.c parser.c process.c signals.c utils.c x86_disasembly.c \
+	-I ../include/ -I ../ -lm ../distorm64.a -Wall -o gwar -ggdb -DFUZZ_ALL -DPTRACE
+
+Example of use:
+
+[gr00vy@kenny ffuzzer]$ ./gwar -i /tmp/input.elf -o /tmp/out.elf -X -D -t 5 -m 4 -r 0-70 "/usr/bin/readelf -a %FILENAME%"
+
+That command will give you a lot of fun.

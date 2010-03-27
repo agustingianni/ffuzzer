@@ -5,7 +5,7 @@
  #include <unistd.h>
  #include <errno.h>
  #include <stdlib.h>
- #include <linux/user.h>
+ #include <sys/user.h>
  #include <signal.h>
  #define _GNU_SOURCE
  #include <string.h>
